@@ -14,7 +14,7 @@ public class MyController {
 
 @Autowired
 private CourseService courseService;
-    @GetMapping("/courses/")
+    @GetMapping("/courses")
 
         public ResponseEntity <List <Course>> getCourses()
     {
